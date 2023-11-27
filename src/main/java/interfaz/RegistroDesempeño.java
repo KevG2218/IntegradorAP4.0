@@ -8,12 +8,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class RRHH {
+public class RegistroDesempeño {
     private ConsolaInterfaz consola;
     private IncidenteDAO incidenteDAO;
     private TecnicoDAO tecnicoDAO;
 
-    public RRHH() {
+    public RegistroDesempeño() {
         this.consola = new ConsolaInterfaz();
         this.incidenteDAO = new IncidenteDAO();
         this.tecnicoDAO = new TecnicoDAO();
